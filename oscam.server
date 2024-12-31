@@ -1,0 +1,180 @@
+# oscam.server generated automatically by Streamboard OSCAM 1.20_svn SVN r11731-799
+# Read more: https://svn.streamboard.tv/oscam/trunk/Distribution/doc/txt/oscam.server.txt
+
+[reader]
+label                         = constant.cw
+enable                        = 1
+protocol                      = constcw
+device                        = /data/plugin/oscam/constant.cw
+group                         = 1
+
+[reader]
+label                         = SoftCam_Emu
+protocol                      = emu
+device                        = https://raw.githubusercontent.com/MOHAMED19OS/SoftCam_Emu/main/Universal/SoftCam.Key
+disablecrccws_only_for        = 0E00:000000
+caid                          = 0500,0604,0E00,1010,1801,2600,2602,2610
+detect                        = cd
+ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;0E00:000000;1010:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000
+group                         = 1
+emmcache                      = 2,1,2,1
+disablecrccws                 = 1
+emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000
+
+[reader]
+label                         = POWERVU
+protocol                      = emu
+device                        = https://raw.githubusercontent.com/sheypooooor123/softcam-daily/main/SoftCam.Key
+disablecrccws_only_for        = 0E00:000000
+caid                          = 0500,0604,0E00,1010,1801,2600,2602,2610
+detect                        = cd
+ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;0E00:000000;1010:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000
+group                         = 1
+emmcache                      = 2,1,2,1
+disablecrccws                 = 1
+emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000
+
+[reader]
+label                         = POWERVU_;_BISS
+protocol                      = emu
+device                        = https://raw.githubusercontent.com/JetCamFastCam/JetFastCamRza/main/SoftCam.Key
+disablecrccws_only_for        = 0E00:000000
+caid                          = 0500,0604,0E00,1010,1801,2600,2602,2610
+detect                        = cd
+ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;0E00:000000;1010:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000
+group                         = 1
+emmcache                      = 2,1,2,1
+disablecrccws                 = 1
+emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000
+
+[reader]
+label                         = SMCAM
+protocol                      = emu
+device                        = https://raw.githubusercontent.com/smcam/s/main/SoftCam.Key
+disablecrccws_only_for        = 0E00:000000
+caid                          = 0500,0604,090F,0E00,1010,1801,2600,2602,2610,4AE1
+detect                        = cd
+ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;090F:000000;0E00:000000;1010:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000;4AE1:000011,000014,0000FE
+group                         = 11
+emmcache                      = 2,1,2,1
+emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000;4AE1:000011,000014,00000F
+
+[reader]
+label                         = emulator
+protocol                      = emu
+device                        = emulator
+caid                          = 0500,0604,090F,0E00,1010,1801,2600,2602,2610,4AE1
+detect                        = cd
+ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;090F:000000;0E00:000000;1010:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000;4AE1:000011,000014,0000FE
+group                         = 5
+emmcache                      = 2,1,2,1
+emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000;4AE1:000011,000014,0000FE
+
+[reader]
+label                         = 78.129.240.183_12000_947gowur
+protocol                      = cccam
+device                        = 78.129.240.183,12000
+user                          = 947gowur
+password                      = efxnho0q
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = 78.129.240.183_13000_947gowur
+protocol                      = cccam
+device                        = 78.129.240.183,13000
+user                          = 947gowur
+password                      = efxnho0q
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = 78.129.240.183_1003_947gowur
+protocol                      = cccam
+device                        = 78.129.240.183,1003
+user                          = 947gowur
+password                      = efxnho0q
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = 78.129.240.183_12000_pi5ksru8
+protocol                      = cccam
+device                        = 78.129.240.183,12000
+user                          = pi5ksru8
+password                      = gu3yroqm
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = 78.129.240.183_13000_pi5ksru8
+protocol                      = cccam
+device                        = 78.129.240.183,13000
+user                          = pi5ksru8
+password                      = gu3yroqm
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = 78.129.240.183_1003_pi5ksru8
+protocol                      = cccam
+device                        = 78.129.240.183,1003
+user                          = pi5ksru8
+password                      = gu3yroqm
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = 206.54.170.88_10100_lixboss
+protocol                      = cccam
+device                        = 206.54.170.88,10100
+user                          = lixboss
+password                      = 210263
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = free.cccam-premium.pro_15014_45mth7
+protocol                      = cccam
+device                        = free.cccam-premium.pro,15014
+user                          = 45mth7
+password                      = cccam-premium.co
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
+[reader]
+label                         = free.cccamiptv.club_13000_0ep6rq
+protocol                      = cccam_mcs
+device                        = free.cccamiptv.club,13000
+user                          = 0ep6rq
+password                      = cccamiptv.pro
+inactivitytimeout             = 30
+group                         = 64
+cccversion                    = 2.3.2
+ccckeepalive                  = 1
+audisabled                    = 1
+
