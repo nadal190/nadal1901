@@ -2,13 +2,6 @@
 # Read more: https://svn.streamboard.tv/oscam/trunk/Distribution/doc/txt/oscam.server.txt
 
 [reader]
-label                         = constant.cw
-enable                        = 1
-protocol                      = constcw
-device                        = /data/plugin/oscam/constant.cw
-group                         = 1
-
-[reader]
 label                         = SoftCam_Emu
 protocol                      = emu
 device                        = https://raw.githubusercontent.com/MOHAMED19OS/SoftCam_Emu/main/Universal/SoftCam.Key
