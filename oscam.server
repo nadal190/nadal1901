@@ -2,6 +2,13 @@
 # Read more: https://svn.streamboard.tv/oscam/trunk/Distribution/doc/txt/oscam.server.txt
 
 [reader]
+label                         = constant.cw
+enable                        = 1
+protocol                      = constcw
+device                        = /data/plugin/oscam/constant.cw
+group                         = 1
+
+[reader]
 label                         = emulator
 protocol                      = emu
 device                        = emulator
@@ -11,112 +18,3 @@ ident                         = 0500:000000,007400,007800,021110,023800;0604:000
 group                         = 5
 emmcache                      = 2,1,2,1
 emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000;4AE1:000011,000014,0000FE
-
-[reader]
-label                         = 78.129.240.183_12000_947gowur
-protocol                      = cccam
-device                        = 78.129.240.183,12000
-user                          = 947gowur
-password                      = efxnho0q
-inactivitytimeout             = 30
-group                         = 64
-cccversion                    = 2.3.2
-ccckeepalive                  = 1
-audisabled                    = 1
-
-[reader]
-label                         = 78.129.240.183_13000_947gowur
-protocol                      = cccam
-device                        = 78.129.240.183,13000
-user                          = 947gowur
-password                      = efxnho0q
-inactivitytimeout             = 30
-group                         = 64
-cccversion                    = 2.3.2
-ccckeepalive                  = 1
-audisabled                    = 1
-
-[reader]
-label                         = 78.129.240.183_1003_947gowur
-protocol                      = cccam
-device                        = 78.129.240.183,1003
-user                          = 947gowur
-password                      = efxnho0q
-inactivitytimeout             = 30
-group                         = 64
-cccversion                    = 2.3.2
-ccckeepalive                  = 1
-audisabled                    = 1
-
-[reader]
-label                         = 78.129.240.183_12000_pi5ksru8
-protocol                      = cccam
-device                        = 78.129.240.183,12000
-user                          = pi5ksru8
-password                      = gu3yroqm
-inactivitytimeout             = 30
-group                         = 64
-cccversion                    = 2.3.2
-ccckeepalive                  = 1
-audisabled                    = 1
-
-[reader]
-label                         = 78.129.240.183_13000_pi5ksru8
-protocol                      = cccam
-device                        = 78.129.240.183,13000
-user                          = pi5ksru8
-password                      = gu3yroqm
-inactivitytimeout             = 30
-group                         = 64
-cccversion                    = 2.3.2
-ccckeepalive                  = 1
-audisabled                    = 1
-
-[reader]
-label                         = 78.129.240.183_1003_pi5ksru8
-protocol                      = cccam
-device                        = 78.129.240.183,1003
-user                          = pi5ksru8
-password                      = gu3yroqm
-inactivitytimeout             = 30
-group                         = 64
-cccversion                    = 2.3.2
-ccckeepalive                  = 1
-audisabled                    = 1
-
-[reader]
-label                         = 206.54.170.88_10100_lixboss
-protocol                      = cccam
-device                        = 206.54.170.88,10100
-user                          = lixboss
-password                      = 210263
-inactivitytimeout             = 30
-group                         = 64
-cccversion                    = 2.3.2
-ccckeepalive                  = 1
-audisabled                    = 1
-
-[reader]
-label                         = free.cccam-premium.pro_15014_45mth7
-protocol                      = cccam
-device                        = free.cccam-premium.pro,15014
-user                          = 45mth7
-password                      = cccam-premium.co
-inactivitytimeout             = 30
-group                         = 64
-cccversion                    = 2.3.2
-ccckeepalive                  = 1
-audisabled                    = 1
-
-[reader]
-label                         = free.cccamiptv.club_13000_0ep6rq
-protocol                      = cccam_mcs
-device                        = free.cccamiptv.club,13000
-user                          = 0ep6rq
-password                      = cccamiptv.pro
-inactivitytimeout             = 30
-group                         = 64
-cccversion                    = 2.3.2
-ccckeepalive                  = 1
-audisabled                    = 1
-
