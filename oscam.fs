@@ -1,16 +1,7 @@
-C: cccam4sat.accesscam.org 15000 cccam4vK cccam4sat.com
-C: visioneuro.sytes.net 13090 cccam2025 www.visioneuro.net
-C: iptvcccam1.sytes.net 41000 iptv2025 www.iptvcccam1.com
-C: 109.169.71.6 1003 947gowur efxnho0q
-C: ru256.cserver.tv 1003 mhisw9nb xmka1hfa
-C: dd996.cserver.tv 1003 mhisw9nb xmka1hfa
-C: 31.40.218.2 1003 947gowur efxnho0q
-C: 31.40.218.2 13000 3093 3093
-C: ru682.cserver.tv 1003 mhisw9nb xmka1hfa
-C: ru101.cserver.tv 1003 mhisw9nb xmka1hfa
-C: i2.egygolds.xyz 17200 7v5iwst5 bc5v46pq
-C: cccam4kk.gleeze.com 15000 cccam4vK cccam4sat.com
-C: 194.163.153.145 15000 cccam4vK cccam4sat.com
-C: cccam4sat.accesscam.org 15000 cccam4vK cccam4sat.com
-C: s2.cccampri.me 11923 74771212 cccampri
-C: dhoom.org 32000 1dayvgq 2021
+https://cccamia.com/free-cccam/
+https://cccam-premium.co/free-cccam/
+https://cccam.net/freecccam
+https://bosscccam.co/Test.php
+https://cccamsate.com/free
+https://cccamiptv.club/free-cccam/
+https://cccamx.com/free-cccam
