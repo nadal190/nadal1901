@@ -1,18 +1,3 @@
-https://cccamia.com/free-cccam/
-https://cccam-premium.co/free-cccam/
-https://cccam.net/freecccam
-https://bosscccam.co/Test.php
-https://cccamsate.com/free
-https://cccamiptv.club/free-cccam/
-https://cccamx.com/free-cccam
-################# CCcam Lines ############
-C: 46.17.103.51 51001 36tbnet10 991111
-C: 46.17.103.51 51002 36tbnet10 991111
-C: 46.17.103.51 51003 36tbnet10 991111
-C: 46.17.103.51 51004 36tbnet10 991111
-C: 46.17.103.51 51005 36tbnet10 991111
-C: 46.17.103.51 51006 36tbnet10 991111
-C: 46.17.103.51 51007 36tbnet10 991111
 C: 46.17.103.51 51001 36tbnet11 991111
 C: 46.17.103.51 51002 36tbnet11 991111
 C: 46.17.103.51 51003 36tbnet11 991111
@@ -34,13 +19,6 @@ C: 46.17.103.51 51004 36tbnet52 991111
 C: 46.17.103.51 51005 36tbnet52 991111
 C: 46.17.103.51 51006 36tbnet52 991111
 C: 46.17.103.51 51007 36tbnet52 991111
-C: 46.17.103.51 51001 36tbnet10 999988
-C: 46.17.103.51 51002 36tbnet10 999988
-C: 46.17.103.51 51003 36tbnet10 999988
-C: 46.17.103.51 51004 36tbnet10 999988
-C: 46.17.103.51 51005 36tbnet10 999988
-C: 46.17.103.51 51006 36tbnet10 999988
-C: 46.17.103.51 51007 36tbnet10 999988
 C: 46.17.103.51 51001 36tbnet11 999988
 C: 46.17.103.51 51002 36tbnet11 999988
 C: 46.17.103.51 51003 36tbnet11 999988
@@ -62,3 +40,11 @@ C: 46.17.103.51 51004 36tbnet52 999988
 C: 46.17.103.51 51005 36tbnet52 999988
 C: 46.17.103.51 51006 36tbnet52 999988
 C: 46.17.103.51 51007 36tbnet52 999988
+################# CCcam Lines ############
+https://cccamia.com/free-cccam/
+https://cccam-premium.co/free-cccam/
+https://cccam.net/freecccam
+https://bosscccam.co/Test.php
+https://cccamsate.com/free
+https://cccamiptv.club/free-cccam/
+https://cccamx.com/free-cccam
