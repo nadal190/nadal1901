@@ -1,20 +1,797 @@
-# oscam.server generated automatically by Streamboard OSCAM 1.20_svn SVN r11731-799
-# Read more: https://svn.streamboard.tv/oscam/trunk/Distribution/doc/txt/oscam.server.txt
-
 [reader]
-label                         = constant.cw
+label                         = SoftCam_Emulator
 enable                        = 1
-protocol                      = constcw
-device                        = /data/plugin/oscam/constant.cw
-group                         = 1
-
-[reader]
-label                         = emulator
 protocol                      = emu
 device                        = emulator
+disablecrccws_only_for        = 0E00:000000
+caid                          = 0500,0604,0E00,1010,1801,2600,2602,2610
+detect                        = cd
+ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;0E00:000000;1010:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000
+group                         = 1
+emmcache                      = 2,2,0,0
+emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000
+
+[reader]
+label                         = SoftCam_Internet
+enable                        = 1
+protocol                      = emu
+device                        = https://raw.githubusercontent.com/popking159/softcam/master/SoftCam.Key
+disablecrccws_only_for        = 0E00:000000
 caid                          = 0500,0604,090F,0E00,1010,1801,2600,2602,2610,4AE1
 detect                        = cd
 ident                         = 0500:000000,007400,007800,021110,023800;0604:000000;090F:000000;0E00:000000;1010:000000;1801:000000,001101,002111,007301;2600:000000;2602:000000;2610:000000;4AE1:000011,000014,0000FE
-group                         = 5
+group                         = 1
 emmcache                      = 2,1,2,1
 emu_auproviders               = 0604:010200;0E00:000000;1010:000000;2610:000000;4AE1:000011,000014,0000FE
+
+[reader]
+label                         = Oscam
+protocol                      = newcamd
+device                        = thexnew.com,44006
+key                           = 0102030405060708091011121314
+user                          = icone223
+password                      = 2232026
+inactivitytimeout             = -1
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+emmcache                      = 1,2,2,1
+disablecrccws                 = 1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51001
+user                          = 36tbnet11
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51002
+user                          = 36tbnet11
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51003
+user                          = 36tbnet11
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51004
+user                          = 36tbnet11
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51005
+user                          = 36tbnet11
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51006
+user                          = 36tbnet11
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51007
+user                          = 36tbnet11
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51001
+user                          = 36tbnet24
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51002
+user                          = 36tbnet24
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51003
+user                          = 36tbnet24
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51004
+user                          = 36tbnet24
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51005
+user                          = 36tbnet24
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51006
+user                          = 36tbnet24
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51007
+user                          = 36tbnet24
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51001
+user                          = 36tbnet52
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51002
+user                          = 36tbnet52
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51003
+user                          = 36tbnet52
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51004
+user                          = 36tbnet52
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51005
+user                          = 36tbnet52
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51006
+user                          = 36tbnet52
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51007
+user                          = 36tbnet52
+password                      = 991111
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51001
+user                          = 36tbnet11
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51002
+user                          = 36tbnet11
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51003
+user                          = 36tbnet11
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51004
+user                          = 36tbnet11
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51005
+user                          = 36tbnet11
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51006
+user                          = 36tbnet11
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51007
+user                          = 36tbnet11
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51001
+user                          = 36tbnet24
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51002
+user                          = 36tbnet24
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51003
+user                          = 36tbnet24
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51004
+user                          = 36tbnet24
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51005
+user                          = 36tbnet24
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51006
+user                          = 36tbnet24
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51007
+user                          = 36tbnet24
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51001
+user                          = 36tbnet52
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51002
+user                          = 36tbnet52
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51003
+user                          = 36tbnet52
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51004
+user                          = 36tbnet52
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51005
+user                          = 36tbnet52
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51006
+user                          = 36tbnet52
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
+[reader]
+label                         = 46.17.103.51
+protocol                      = cccam
+device                        = 46.17.103.51,51007
+user                          = 36tbnet52
+password                      = 999988
+ccckeepalive                  = 1
+inactivitytimeout             = -1
+reconnecttimeout              = 5
+disablecrccws                 = 1
+disablecrccws_only_for        = 0E00:000000,0500:030B00,050F00;098C:000000;09C4:000000
+disableserverfilter           = 1
+ecmwhitelist                  = 0604:34;1884:8F;1803:92;1861:89;090D:B7;0B01:76,88,75,6C,72,74,75,86,87,98,99;092F:83;098D:A3,A0,A7,B7
+chid                          = 0604:0000CC,0000CD,00009C,000020,000085,000086
+group                         = 1
+audisabled                    = 0
+emmcache                      = 1,2,2,1
+
