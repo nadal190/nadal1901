@@ -1,61 +1,199 @@
 #EXTM3U
-#EXTINF:-1,🔊Bein 1
-http://icone-live.sportify-audio.xyz/listen/icone/Icone-Bein1
-#EXTINF:-1,🔊Bein 2
-http://icone-live.sportify-audio.xyz/listen/icone/Icone-Bein2
-#EXTINF:-1,🔊Bein 3
-http://icone-live.sportify-audio.xyz/listen/icone/Icone-Bein3
-#EXTINF:-1,🔊Bein 4
-http://icone-live.sportify-audio.xyz/listen/icone/Icone-Bein4
-#EXTINF:-1,🔊Bein 5
-http://icone-live.sportify-audio.xyz/listen/icone/Icone-Bein5
-#EXTINF:-1,🔊Bein 6
-http://icone-live.sportify-audio.xyz/listen/icone/Icone-Bein6
-#EXTINF:-1,🔊Bein 7
-http://icone-live.sportify-audio.xyz/listen/icone/Icone-Bein7
-#EXTINF:-1,🔊Bein 8
-http://icone-live.sportify-audio.xyz/listen/icone/Icone-Bein8
-#EXTINF:-1,🔊Bein 9
-http://icone-live.sportify-audio.xyz/listen/icone/Icone-Bein9
-#EXTINF:-1,🔊Bein Xtra1
-http://icone-live.sportify-audio.xyz/listen/icone/Xtra1
-#EXTINF:-1,🔊Bein Xtra2
-http://icone-live.sportify-audio.xyz/listen/icone/Xtra2
-#EXTINF:-1,🔊Bein Xtra3
-http://icone-live.sportify-audio.xyz/listen/icone/Xtra3
-#EXTINF:-1,🔊BeinDelay1
-http://icone-live.sportify-audio.xyz/listen/icone/bein1delay
-#EXTINF:-1,🔊BeinDelay2
-http://icone-live.sportify-audio.xyz/listen/icone/bein2delay
-#EXTINF:-1,🔊BeinDelay3
-http://icone-live.sportify-audio.xyz/listen/icone/bein3delay
-#EXTINF:-1,🔊Alkass-5
-http://icone-live.sportify-audio.xyz/listen/icone/Alkass-5
-#EXTINF:-1,🔊Italy1
-http://icone-live.sportify-audio.xyz/listen/icone/ADPrem1
-#EXTINF:-1,🔊Italy2
-http://icone-live.sportify-audio.xyz/listen/icone/ADPrem2
-#EXTINF:-1,🔊MBC
-http://185.177.228.56:8880/MBC-ACTION/mpegts
-#EXTINF:-1,🔊Thmnyah1
-http://185.177.228.56:8880/thmanyah-1/mpegts
-#EXTINF:-1,🔊Thmnyah2
-http://185.177.228.56:8880/thmanyah-2/mpegts
-#EXTINF:-1,🔊Thmnyah3
-http://185.177.228.56:8880/thmanyah-3/mpegts
-#EXTINF:-1,🔊live sport1
-http://anisfm.ddns.net
-#EXTINF:-1,🔊live sport2
-http://anisfm2.ddns.net
-#EXTINF:-1,🔊live sport3
-http://anisfm3.ddns.net
-#EXTINF:-1,🔊live sport4
-http://anisfm4.ddns.net
-#EXTINF:-1,🔊live sport5
-http://anisfm5.ddns.net
-#EXTINF:-1,🔊marca 🇪🇸
-http://spo-2nd.sportify-audio.xyz/SpainRadio-Live-1/mpegts
-#EXTINF:-1,🕋آلُقرٍآن آلُگرٍيَمـ
-http://qurango.net/radio/ahmad_alajmy
-#EXTINF:-1,🕓صوتيه فارغه
-http://8.8.8.8
+#EXTINF:-1,FoX FM Live 1
+http://foxfm.xyz:8080/live1
+#EXTINF:-1,FoX FM Live 2
+http://foxfm.xyz:8080/live2
+#EXTINF:-1,FoX FM Live 3
+http://foxfm.xyz:8080/live3
+#EXTINF:-1,FoX FM Live 4
+http://foxfm.xyz:8080/live4
+#EXTINF:-1,FoX FM 1
+http://foxfm.xyz/1
+#EXTINF:-1,FoX FM 2
+http://foxfm.xyz/2
+#EXTINF:-1,FoX FM 3
+http://foxfm.xyz/3
+#EXTINF:-1,FoX FM 4
+http://foxfm.xyz/4
+#EXTINF:-1,FoX FM 5
+http://foxfm.xyz/5
+#EXTINF:-1,FoX FM 6
+http://foxfm.xyz/6
+#EXTINF:-1,FoX FM 7
+http://foxfm.xyz/7
+#EXTINF:-1,FoX FM 8
+http://foxfm.xyz/8
+#EXTINF:-1,FoX FM 9
+http://foxfm.xyz/9
+#EXTINF:-1,FoX FM Xtra 1
+http://foxfm.xyz:8080/xtra1
+#EXTINF:-1,FoX FM Xtra 2
+http://foxfm.xyz:8080/xtra2
+#EXTINF:-1,FoX FM Xtra 3
+http://foxfm.xyz:8080/xtra3
+#EXTINF:-1,FoX FM EN 1
+http://foxfm.xyz:8080/en1
+#EXTINF:-1,FoX FM EN 2
+http://foxfm.xyz:8080/en2
+#EXTINF:-1,FoX FM FR 1
+http://foxfm.xyz:8080/fr1
+#EXTINF:-1,FoX FM FR 2
+http://foxfm.xyz:8080/fr2
+#EXTINF:-1,FoX FM StarzPlay 1
+http://foxfm.xyz:8080/starzplay1
+#EXTINF:-1,FoX FM StarzPlay 2
+http://foxfm.xyz:8080/starzplay2
+#EXTINF:-1,FoX FM Shasha 1
+http://foxfm.xyz:8080/shasha1
+#EXTINF:-1,FoX FM Shasha 2
+http://foxfm.xyz:8080/shasha2
+#EXTINF:-1,FoX FM Thmanyah 1
+http://foxfm.xyz:8080/thmanyah1
+#EXTINF:-1,FoX FM Thmanyah 2
+http://foxfm.xyz:8080/thmanyah2
+#EXTINF:-1,FoX FM Thmanyah 3
+http://foxfm.xyz:8080/thmanyah3
+#EXTINF:-1,FoX FM Shahid 1
+http://foxfm.xyz:8080/shahid1
+#EXTINF:-1,FoX FM Shahid 2
+http://foxfm.xyz:8080/shahid2
+#EXTINF:-1,FoX FM Alkass 5
+http://foxfm.xyz:8080/alkass5
+#EXTINF:-1,FoX FM Alkass 6
+http://foxfm.xyz:8080/alkass6
+#EXTINF:-1,FoX FM Alkass 7
+http://foxfm.xyz:8080/alkass7
+#EXTINF:-1,FoX FM Alkass 8
+http://foxfm.xyz:8080/alkass8
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رسمي",Anis FM 1 | أنيس 1
+https://anisfm.pp.ua/1
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رسمي",Anis FM 1 Low | أنيس 1 نت ضعيف
+https://anisfm.pp.ua/1L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رسمي",Anis FM 2 | أنيس 2
+https://anisfm.pp.ua/2
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رسمي",Anis FM 2 Low | أنيس 2 نت ضعيف
+https://anisfm.pp.ua/2L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رسمي",Anis FM 3 | أنيس 3
+https://anisfm.pp.ua/3
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رسمي",Anis FM 3 Low | أنيس 3 نت ضعيف
+https://anisfm.pp.ua/3L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رسمي",Anis FM 4 | أنيس 4
+https://anisfm.pp.ua/4
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رسمي",Anis FM 4 Low | أنيس 4 نت ضعيف
+https://anisfm.pp.ua/4L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رسمي",Anis FM 5 | أنيس 5
+https://anisfm.pp.ua/5
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رسمي",Anis FM 5 Low | أنيس 5 نت ضعيف
+https://anisfm.pp.ua/5L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رسمي",Anis Max 1 | أنيس ماكس 1
+https://anisfm.pp.ua/Mx1
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رسمي",Anis Max 1 Low | أنيس ماكس 1 نت ضعيف
+https://anisfm.pp.ua/Mx1L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 1 (سيرفر مباشر) | أنيس 1
+https://cdn8.anisfm.pp.ua:8000/1
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 1 Low (سيرفر مباشر)
+https://cdn8.anisfm.pp.ua:8000/1L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 1 AAC (سيرفر مباشر)
+https://cdn8.anisfm.pp.ua:8000/1A
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 2 (سيرفر مباشر) | أنيس 2
+https://cdn8.anisfm.pp.ua:8000/2
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 2 Low (سيرفر مباشر)
+https://cdn8.anisfm.pp.ua:8000/2L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 2 AAC (سيرفر مباشر)
+https://cdn8.anisfm.pp.ua:8000/2A
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 3 (سيرفر مباشر) | أنيس 3
+https://cdn8.anisfm.pp.ua:8000/3
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 3 Low (سيرفر مباشر)
+https://cdn8.anisfm.pp.ua:8000/3L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 3 AAC (سيرفر مباشر)
+https://cdn8.anisfm.pp.ua:8000/3A
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 4 (سيرفر مباشر) | أنيس 4
+https://cdn8.anisfm.pp.ua:8000/4
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 4 Low (سيرفر مباشر)
+https://cdn8.anisfm.pp.ua:8000/4L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 4 AAC (سيرفر مباشر)
+https://cdn8.anisfm.pp.ua:8000/4A
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 5 (سيرفر مباشر) | أنيس 5
+https://cdn8.anisfm.pp.ua:8000/5
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 5 Low (سيرفر مباشر)
+https://cdn8.anisfm.pp.ua:8000/5L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 5 AAC (سيرفر مباشر)
+https://cdn8.anisfm.pp.ua:8000/5A
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 6 (سيرفر مباشر) | أنيس 6
+https://cdn8.anisfm.pp.ua:8000/6
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 6 Low (سيرفر مباشر)
+https://cdn8.anisfm.pp.ua:8000/6L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM 6 AAC (سيرفر مباشر)
+https://cdn8.anisfm.pp.ua:8000/6A
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرفر مباشر",Anis FM Fallback (بديل تلقائي)
+https://cdn8.anisfm.pp.ua:8000/fallback
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - سيرمر مباشر",Anis FM Fallback AAC (بديل تلقائي)
+https://cdn8.anisfm.pp.ua:8000/fallbackA
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - ثمنية/شاشة",Thmanyah 1 | ثمنية 1 (Fox FM Thmanyah)
+https://radio.anisfm.vip/live/sa/1
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - ثمنية/شاشة",Thmanyah 2 | ثمنية 2 (Fox FM Thmanyah)
+https://radio.anisfm.vip/live/sa/2
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - ثمنية/شاشة",Thmanyah 3 | ثمنية 3 (Fox FM Thmanyah)
+https://radio.anisfm.vip/live/sa/3
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - ثمنية/شاشة",Shasha 1 | شاشة 1 (Fox FM Shasha)
+https://radio.anisfm.vip/live/sha/1
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - ثمنية/شاشة",Shasha 2 | شاشة 2 (Fox FM Shasha)
+https://radio.anisfm.vip/live/sha/2
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - EN/FR",Anis EN 1 | إنجليزي 1 (Fox FM EN)
+https://radio.anisfm.vip/live/pn/1EN
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - EN/FR",Anis EN 2 | إنجليزي 2 (Fox FM EN)
+https://radio.anisfm.vip/live/pn/2EN
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - EN/FR",Anis FR 1 | فرنسي 1 (Fox FM FR)
+https://radio.anisfm.vip/live/pn/1FR
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - EN/FR",Anis FR 2 | فرنسي 2 (Fox FM FR)
+https://radio.anisfm.vip/live/pn/2FR
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - دولي",Anis Italy 1 | إيطاليا 1
+https://radio.anisfm.vip/live/it/1
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - دولي",Anis Italy 2 | إيطاليا 2
+https://radio.anisfm.vip/live/it/2
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - دولي",Anis DE 1 | ألمانيا 1
+https://radio.anisfm.vip/live/gr/1
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - دولي",Anis DE 2 | ألمانيا 2
+https://radio.anisfm.vip/live/gr/2
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رياضة",Anis Sport 1 | رياضة 1 (Fox FM Alkass)
+https://radio.anisfm.vip/live/pn/1
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رياضة",Anis Sport 2 | رياضة 2
+https://radio.anisfm.vip/live/pn/2
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رياضة",Anis Sport 3 | رياضة 3
+https://radio.anisfm.vip/live/pn/3
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رياضة",Anis Sport 4 | رياضة 4
+https://radio.anisfm.vip/live/pn/4
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رياضة",Anis Sport 5 | رياضة 5
+https://radio.anisfm.vip/live/pn/5
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رياضة",Anis Sport 6 | رياضة 6
+https://radio.anisfm.vip/live/pn/6
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رياضة",Anis Sport 7 | رياضة 7
+https://radio.anisfm.vip/live/pn/7
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رياضة",Anis Sport 8 | رياضة 8
+https://radio.anisfm.vip/live/pn/8
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - رياضة",Anis Sport 9 | رياضة 9
+https://radio.anisfm.vip/live/pn/9
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - Max",Anis Max 1 (بروكسي)
+https://radio.anisfm.vip/live/mx/1
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - Max",Anis Max 2 (بروكسي)
+https://radio.anisfm.vip/live/mx/2
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - Max",Anis Max 3 (بروكسي)
+https://radio.anisfm.vip/live/mx/3
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - Max",Anis Max 4 (بروكسي)
+https://radio.anisfm.vip/live/mx/4
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - Max",Anis Max 5 (بروكسي)
+https://radio.anisfm.vip/live/mx/5
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - Max",Anis Max 6 (بروكسي)
+https://radio.anisfm.vip/live/mx/6
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - Max",Anis Max 1 Low (بروكسي)
+https://radio.anisfm.vip/live/mx/1L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - Max",Anis Max 2 Low (بروكسي)
+https://radio.anisfm.vip/live/mx/2L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - Max",Anis Max 3 Low (بروكسي)
+https://radio.anisfm.vip/live/mx/3L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - Max",Anis Max 4 Low (بروكسي)
+https://radio.anisfm.vip/live/mx/4L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - Max",Anis Max 5 Low (بروكسي)
+https://radio.anisfm.vip/live/mx/5L
+#EXTINF:-1 tvg-logo="https://anisfm.pp.ua/anis.jpg" group-title="Anis FM - Max",Anis Max 6 Low (بروكسي)
+https://radio.anisfm.vip/live/mx/6L
